@@ -1,5 +1,56 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`convert from jpg to webp 1`] = `
+Object {
+  "height": 450,
+  "images": Array [
+    Object {
+      "height": 450,
+      "path": "foobar/956225fc6f03b94ebd4862a3c5f00904-500.webp",
+      "width": 500,
+    },
+    Object {
+      "height": 675,
+      "path": "foobar/16a2695a04c24d9ef9a25b71c9bf2174-750.webp",
+      "width": 750,
+    },
+    Object {
+      "height": 900,
+      "path": "foobar/29870ec572c173a90a36d4c9c0a9bc98-1000.webp",
+      "width": 1000,
+    },
+  ],
+  "placeholder": undefined,
+  "src": "foobar/956225fc6f03b94ebd4862a3c5f00904-500.webp",
+  "srcSet": "foobar/956225fc6f03b94ebd4862a3c5f00904-500.webp 500w,foobar/16a2695a04c24d9ef9a25b71c9bf2174-750.webp 750w,foobar/29870ec572c173a90a36d4c9c0a9bc98-1000.webp 1000w",
+  "toString": [Function],
+  "width": 500,
+}
+`;
+
+exports[`convert from png to webp 1`] = `
+Object {
+  "height": 580,
+  "images": Array [
+    Object {
+      "height": 580,
+      "path": "foobar/dfeecbec599f476d3a0215bb6e7f3dd6-500.webp",
+      "width": 500,
+    },
+    Object {
+      "height": 595,
+      "path": "foobar/711285969b04c54a921259f638713eaf-513.webp",
+      "width": 513,
+    },
+  ],
+  "placeholder": undefined,
+  "src": "foobar/dfeecbec599f476d3a0215bb6e7f3dd6-500.webp",
+  "srcSet": "foobar/dfeecbec599f476d3a0215bb6e7f3dd6-500.webp 500w,foobar/711285969b04c54a921259f638713eaf-513.webp 513w",
+  "toString": [Function],
+  "width": 500,
+}
+`;
+
 exports[`disable 1`] = `
 Object {
   "images": Array [
